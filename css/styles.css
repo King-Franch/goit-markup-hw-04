@@ -401,28 +401,29 @@ body {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+  background-size: 16px 16px;
   background-repeat: no-repeat;
   background-position: center;
 }
 
+.subbuttob-team:hover {
+  background-color: #404bbf;
+}
+
 .social-media-list-team > .social-list-icon-instagram {
   background-image: url(../images/icon/instagram_icon.svg);
-  background-size: 16px 16px;
 }
 
 .social-media-list-team > .social-list-icon-twitter {
   background-image: url(../images/icon/twitter_icon.svg);
-  background-size: 16px 16px;
 }
 
 .social-media-list-team > .social-list-icon-facebook {
   background-image: url(../images/icon/facebook_icon.svg);
-  background-size: 16px 16px;
 }
 
 .social-media-list-team > .social-list-icon-linkedin {
   background-image: url(../images/icon/linkedin_icon.svg);
-  background-size: 16px 16px;
 }
 
 /* <!--/////// COSTOMERS (SECTION 5) ///////--> */
@@ -445,6 +446,10 @@ body {
 .costomers-container {
   margin-top: 72px;
   gap: 24px;
+}
+
+.costomers-icon:hover {
+  fill: #404bbf;
 }
 
 /* <!--/////// FOOTER (SECTION 4) ///////--> */
@@ -485,6 +490,10 @@ body {
   background: rgba(255, 255, 255, 0.1);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.subbuttob:hover {
+  background-color: #31d0aa;
 }
 
 /* ////////// FOOTER NETWORK ICON LIST ////////// */
