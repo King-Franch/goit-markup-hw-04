@@ -442,14 +442,34 @@ body {
 .costomers-list {
   list-style-type: none;
 }
+.costomers-icon:hover {
+  fill: #404bbf;
+}
 
 .costomers-container {
   margin-top: 72px;
   gap: 24px;
 }
 
-.costomers-icon:hover {
-  fill: #404bbf;
+.costomers-item {
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
+.costomers-item:hover {
+  border-color: #404bbf;
+}
+
+.costomers-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 /* <!--/////// FOOTER (SECTION 4) ///////--> */
